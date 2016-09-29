@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\Display.react.jsx" Url="Scripts/components/Display.react.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\build\Scripts\HelloAddIn.js" Url="Scripts/build/Scripts/HelloAddIn.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\HelloAddIn.jsx" Url="Scripts/HelloAddIn.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\HelloAddIn.js" Url="Scripts/HelloAddIn.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\react-dom.js" Url="Scripts/react-dom.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\react.js" Url="Scripts/react.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

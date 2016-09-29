@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="57c9d48e-cef4-42ad-907f-5c9b20ec4cf8" 
+        solutionId="57c9d48e-cef4-42ad-907f-5c9b20ec4cf8" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="react_test1"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="28698d6c-7398-4edd-90bf-1f036240fe15" />
+  </features>
+</package>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\Amy_Jones.jpg" Url="Images/Amy_Jones.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Eugene_Lee.jpg" Url="Images/Eugene_Lee.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Gary_Donovan.jpg" Url="Images/Gary_Donovan.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\James_King.jpg" Url="Images/James_King.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\John_Williams.jpg" Url="Images/John_Williams.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Julie_Taylor.jpg" Url="Images/Julie_Taylor.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Kathleen_Byrne.jpg" Url="Images/Kathleen_Byrne.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Lisa_Wong.jpg" Url="Images/Lisa_Wong.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Paul_Jones.jpg" Url="Images/Paul_Jones.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Paula_Gates.jpg" Url="Images/Paula_Gates.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Ray_Moore.jpg" Url="Images/Ray_Moore.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Steven_Wells.jpg" Url="Images/Steven_Wells.jpg" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

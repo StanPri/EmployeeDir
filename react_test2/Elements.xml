@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="gulpfile.js" Url="gulpfile.js" ReplaceContent="TRUE" />
+    <File Path="css\pageslider.css" Url="css/pageslider.css" ReplaceContent="TRUE" />
+    <File Path="css\styles.css" Url="css/styles.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\css\ratchet-theme-android.css" Url="ratchet/css/ratchet-theme-android.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\css\ratchet-theme-android.min.css" Url="ratchet/css/ratchet-theme-android.min.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\css\ratchet-theme-ios.css" Url="ratchet/css/ratchet-theme-ios.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\css\ratchet-theme-ios.min.css" Url="ratchet/css/ratchet-theme-ios.min.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\css\ratchet.css" Url="ratchet/css/ratchet.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\css\ratchet.min.css" Url="ratchet/css/ratchet.min.css" ReplaceContent="TRUE" />
+    <File Path="ratchet\fonts\ratchicons.eot" Url="ratchet/fonts/ratchicons.eot" ReplaceContent="TRUE" />
+    <File Path="ratchet\fonts\ratchicons.svg" Url="ratchet/fonts/ratchicons.svg" ReplaceContent="TRUE" />
+    <File Path="ratchet\fonts\ratchicons.ttf" Url="ratchet/fonts/ratchicons.ttf" ReplaceContent="TRUE" />
+    <File Path="ratchet\fonts\ratchicons.woff" Url="ratchet/fonts/ratchicons.woff" ReplaceContent="TRUE" />
+    <File Path="ratchet\js\ratchet.js" Url="ratchet/js/ratchet.js" ReplaceContent="TRUE" />
+    <File Path="ratchet\js\ratchet.min.js" Url="ratchet/js/ratchet.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
