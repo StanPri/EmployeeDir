@@ -1,4 +1,4 @@
-﻿var router = (function () {
+var router = (function () {
 
     "use strict";
 
@@ -6,7 +6,7 @@
 
     function addRoute(route, handler) {
 
-        routes.push({ parts: route.split('/'), handler: handler });
+        routes.push({parts: route.split('/'), handler: handler});
     }
 
     function load(route) {
