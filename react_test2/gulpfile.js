@@ -26,6 +26,8 @@ gulp.task('default', function () {
          .pipe(gulp.dest('./Scripts/build/'));
     });
 
+    //Test GitHub on gulp file
+
     return es.merge.apply(null, tasks);
 
 });
