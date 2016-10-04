@@ -4,7 +4,7 @@
      Name="react_test2"
      ProductID="{8e6c0dee-b3df-4b79-920c-0153c8401a9a}"
      Version="1.0.0.0"
-     SharePointMinVersion="16.0.0.0"
+     SharePointMinVersion="15.0.0.0"
 >
   <Properties>
     <Title>react_test2</Title>

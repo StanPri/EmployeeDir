@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9ADD40F3-A2F7-4B38-805C-8A4DA84896E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmployeeDirectoryProject</RootNamespace>
+    <AssemblyName>EmployeeDirectoryProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\pageslider.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="gulpfile.js" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="ratchet\css\ratchet-theme-android.css" />
+    <Content Include="ratchet\css\ratchet-theme-android.min.css" />
+    <Content Include="ratchet\css\ratchet-theme-ios.css" />
+    <Content Include="ratchet\css\ratchet-theme-ios.min.css" />
+    <Content Include="ratchet\css\ratchet.css" />
+    <Content Include="ratchet\css\ratchet.min.css" />
+    <Content Include="ratchet\fonts\ratchicons.svg" />
+    <Content Include="ratchet\js\ratchet.js" />
+    <Content Include="ratchet\js\ratchet.min.js" />
+    <Content Include="Scripts\build\App.js" />
+    <Content Include="Scripts\build\HelloAddIn.js" />
+    <Content Include="Scripts\data.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\react-dom.js" />
+    <Content Include="Scripts\react.js" />
+    <Content Include="Scripts\Router.js" />
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{f78346d6-289d-4932-8d69-5a340ae509aa}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{e8912bdb-4e92-43a0-bcab-e3e9a2b9836c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <Content Include="Scripts\app.jsx" />
+    <Content Include="Scripts\components\Display.react.jsx" />
+    <Content Include="Scripts\components\EmployeeList.jsx" />
+    <Content Include="Scripts\components\EmployeeListItem.jsx" />
+    <Content Include="Scripts\components\EmployeePage.jsx" />
+    <Content Include="Scripts\components\Header.jsx" />
+    <Content Include="Scripts\components\HomePage.jsx" />
+    <Content Include="Scripts\components\SearchBar.jsx" />
+    <Content Include="Scripts\HelloAddIn.jsx" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cc0bdd97-69ef-462d-941f-c02be340e54b}</SharePointProjectItemId>
+    </None>
+    <None Include="ratchet\fonts\ratchicons.eot" />
+    <None Include="ratchet\fonts\ratchicons.ttf" />
+    <None Include="ratchet\fonts\ratchicons.woff" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{79fb6286-4853-4836-8d28-6e90d8238191}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
